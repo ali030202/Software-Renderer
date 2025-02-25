@@ -1,0 +1,39 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+/packages/Eigen.3.3.3
+/diablo3_pose
+/african_head
+<<<<<<< HEAD
+/.vs/QtWidgetsApplication3
+=======
+>>>>>>> 0c71c6b11030f7937d5653390df4c99e74723cd8
