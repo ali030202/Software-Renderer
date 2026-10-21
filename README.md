@@ -28,7 +28,7 @@
 2. 选择 **Debug | x64**，确认 Qt Visual Studio Tools 使用项目配置的 Qt kit，并恢复 Eigen NuGet 包。
 3. 当前 `main.cpp` 尝试从相对路径 `african_head/african_head.obj` 加载模型。
 4. 仓库中没有提交 `african_head` 模型目录。请将兼容的 OBJ 文件放到上述相对路径，或修改 `main.cpp` 中的路径；同时将 Visual Studio 的调试工作目录设为仓库根目录。
-5. 编译并运行。程序创建 1000×1000 的 Qt 窗口并绘制当前模型和一个用于演示的彩色三角形。
+5. 编译并运行。程序创建 1000×1000 的 Qt 窗口；当模型文件存在且路径正确时，会绘制模型，并同时绘制一个用于演示的彩色三角形。
 
 ## 代码结构
 
